@@ -21,7 +21,7 @@ app.get('/sc/:sc/bulan/:bulan', async (req, res) => {
 });
 
 // Start the server
-const PORT = 3131;
+const PORT = 3132;
 app.listen(PORT, () => {
     console.log(`Server running at http://127.0.0.1:${PORT}`);
 });
